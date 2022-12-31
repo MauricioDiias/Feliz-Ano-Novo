@@ -1,0 +1,83 @@
+body {
+    background-image: url("./pexels-dusty-rainbows-12701467.jpg");
+   /* background-color: rgb(26, 24, 24); */
+    display: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 3em;
+}
+
+h2 {
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 3em;
+}
+
+.container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.num {
+    background-color: aliceblue;
+    width: 150px;
+    height: 150px;
+    border-radius: 15%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.num .numero{
+    font-size: 5em;
+    font-weight: 600;
+    display: flex;
+align-items: center;
+justify-content: center;
+height: 70%;
+}
+.num .nome{
+    font-size: 1.2em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(61, 60, 60);
+    color: azure;
+    height: 40%;
+    border-radius: 0 0 15px 15px;
+}
+.ano-novo{
+    margin: 0;
+    padding: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.co-criador{
+    color: rgb(0, 0, 0);
+    background-color: rgba(240, 248, 255, 0.616);
+border-radius: 15px;
+padding: 3px;
+}
